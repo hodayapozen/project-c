@@ -1,0 +1,33 @@
+﻿<Window x:Class="PLWPF.LinqWPF"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="LinqWPF" Height="450" Width="800">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="603" Margin="0,-48,-813.667,-134.333" VerticalAlignment="Top" Width="1607" Source="image/תמונת רכב.jpg" Opacity="0.6"/>
+        <Button Content="LINQ TESTERS BY SPECIALIZATION" HorizontalAlignment="Left" Margin="51,47,0,0" VerticalAlignment="Top" Width="688" Height="58" FontFamily="Arial Black" FontSize="18" Click="Button_Click">
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0.2"/>
+            </Button.Background>
+        </Button>
+        <Button Content="LINQ TRAINEE BY NUMBER OF TESTS" FontFamily="Arial Black" HorizontalAlignment="Left" Margin="51,305,0,0" VerticalAlignment="Top"  Height="58" Width="688" FontSize="18" Click="Button_Click_3">
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0.2"/>
+            </Button.Background>
+        </Button>
+        <Button  Content="LINQ TRAINEE BY DRIVING TEACHER"  HorizontalAlignment="Left" Margin="51,219,0,0" VerticalAlignment="Top" Width="688"  Height="58" FontFamily="Arial Black" FontSize="18" Click="Button_Click_2">
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0.2"/>
+            </Button.Background>
+        </Button>
+        <Button Content="LINQ TRAINEE BY DRIVING SCHOOL" HorizontalAlignment="Left" Margin="51,133,0,0" VerticalAlignment="Top"  Height="58" Width="688" FontFamily="Arial Black" FontSize="18" Click="Button_Click_1">
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0.2"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

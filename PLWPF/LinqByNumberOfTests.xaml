@@ -1,0 +1,42 @@
+﻿<Window x:Class="PLWPF.LinqByNumberOfTests"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="LinqByNumberOfTests" Height="400" Width="600">
+    <Grid>
+        <TreeView x:Name="view" Background="WhiteSmoke" FontFamily="Georgia" HorizontalAlignment="Left" Height="286" Margin="0,75,0,0" VerticalAlignment="Top" Width="593">
+            <TreeView.ItemContainerStyle>
+                <Style TargetType="TreeViewItem">
+                    <Setter Property="IsExpanded" Value="True" />
+                </Style>
+            </TreeView.ItemContainerStyle>
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate ItemsSource="{Binding}">
+                    <TextBlock  Width="50" FontWeight="Bold" Text="{Binding Key}"></TextBlock>
+                    <HierarchicalDataTemplate.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Border  BorderBrush="Black" BorderThickness="0.5" Padding="1" Margin="1">
+                                    <TextBlock Margin="3" Width="100" Text="{Binding TraineeId}"></TextBlock>
+                                </Border>
+                                <Border  BorderBrush="Black" BorderThickness="0.5" Padding="1" Margin="1">
+                                    <TextBlock Margin="3" Width="100" Text="{Binding  TraineeFirstName}"></TextBlock>
+                                </Border>
+                                <Border  BorderBrush="Black" BorderThickness="0.5" Padding="1" Margin="1">
+                                    <TextBlock Margin="3" Width="100" Text="{Binding TraineeLastName}"></TextBlock>
+                                </Border>
+                                <Border  BorderBrush="Black" BorderThickness="0.5" Padding="1" Margin="1">
+                                    <TextBlock Margin="3" Width="100"></TextBlock>
+                                </Border>
+                           
+                            </StackPanel>
+                        </DataTemplate>
+                    </HierarchicalDataTemplate.ItemTemplate>
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+        </TreeView>
+    </Grid>
+</Window>

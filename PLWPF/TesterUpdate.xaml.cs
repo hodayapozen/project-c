@@ -97,6 +97,10 @@ namespace PLWPF
             }
             this.Close();
         }
-       
+
+        private void EnterNameu_LostKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
+        {
+
+        }
     }
 }

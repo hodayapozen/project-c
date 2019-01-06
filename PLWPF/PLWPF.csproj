@@ -57,6 +57,21 @@
     <Compile Include="AddTester.xaml.cs">
       <DependentUpon>AddTester.xaml</DependentUpon>
     </Compile>
+    <Compile Include="LinqByDrivingSchool.xaml.cs">
+      <DependentUpon>LinqByDrivingSchool.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LinqByDrivingTEACHER.xaml.cs">
+      <DependentUpon>LinqByDrivingTEACHER.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LinqByNumberOfTests.xaml.cs">
+      <DependentUpon>LinqByNumberOfTests.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LinqTesters.xaml.cs">
+      <DependentUpon>LinqTesters.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LinqWPF.xaml.cs">
+      <DependentUpon>LinqWPF.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TesterActions.xaml.cs">
       <DependentUpon>TesterActions.xaml</DependentUpon>
     </Compile>
@@ -79,6 +94,26 @@
       <DependentUpon>TesterWPF.xaml</DependentUpon>
     </Compile>
     <Page Include="AddTester.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LinqByDrivingSchool.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LinqByDrivingTEACHER.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LinqByNumberOfTests.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LinqTesters.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LinqWPF.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -141,19 +176,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="BE.Configuration.datasource" />
-    <None Include="BE.EnumClass+CarType.datasource" />
-    <None Include="BE.EnumClass+GearboxType.datasource" />
-    <None Include="BE.EnumClass+Gender.datasource" />
-    <None Include="BE.EnumClass+Score.datasource" />
-    <None Include="BE.EnumClass.datasource" />
-    <None Include="BE.StructClass+Adress.datasource" />
-    <None Include="BE.StructClass.datasource" />
-    <None Include="BE.Test.datasource" />
-    <None Include="BE.Tester.datasource" />
-    <None Include="BE.Trainee.datasource" />
-    <None Include="BL.Factory_BL.datasource" />
-    <None Include="BL.IBL.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -190,6 +212,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="image\שעות עבודה.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\photo_2019-01-06_21-14-34.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

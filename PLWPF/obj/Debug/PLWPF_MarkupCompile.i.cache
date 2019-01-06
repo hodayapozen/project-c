@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Project01_6081_3981_dotNet5779\PLWPF\App.xaml
-91121223403
+141855996036
 
-17873224296
+22-2052393691
 1211733557930
-AddTester.xaml;MainWindow.xaml;TesterActions.xaml;TesterAddSuccess.xaml;TesterDeleteSuccess.xaml;TesterUpdate.xaml;TesterUpdateSuccess.xaml;TesterWorkHours.xaml;TesterWPF.xaml;
+AddTester.xaml;LinqByDrivingSchool.xaml;LinqByDrivingTEACHER.xaml;LinqByNumberOfTests.xaml;LinqTesters.xaml;LinqWPF.xaml;MainWindow.xaml;TesterActions.xaml;TesterAddSuccess.xaml;TesterDeleteSuccess.xaml;TesterUpdate.xaml;TesterUpdateSuccess.xaml;TesterWorkHours.xaml;TesterWPF.xaml;
 
 False
 

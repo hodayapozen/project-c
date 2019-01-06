@@ -29,7 +29,6 @@ namespace BE
         public String TraineeDrivingSchool { get; set; }
         public String TraineeDrivingTeacher { get; set; }
         public int TraineeNumberOfLessonsDriving { get; set; }
-        public EnumClass.Gender TraineePreferredGenderOfTester { get; set; }
         public Trainee() { }
         public Trainee(Trainee trainee)
         {

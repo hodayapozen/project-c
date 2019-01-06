@@ -133,3 +133,13 @@ C:\Project01_6081_3981_dotNet5779\PLWPF\obj\Debug\TesterDeleteSuccess.baml
 C:\Project01_6081_3981_dotNet5779\PLWPF\obj\Debug\TesterWorkHours.baml
 C:\Project01_6081_3981_dotNet5779\PLWPF\obj\Debug\TesterAddSuccess.g.cs
 C:\Project01_6081_3981_dotNet5779\PLWPF\obj\Debug\TesterAddSuccess.baml
+C:\Project01_6081_3981_dotNet5779\PLWPF\obj\Debug\LinqWPF.g.cs
+C:\Project01_6081_3981_dotNet5779\PLWPF\obj\Debug\LinqWPF.baml
+C:\Project01_6081_3981_dotNet5779\PLWPF\obj\Debug\LinqByDrivingSchool.g.cs
+C:\Project01_6081_3981_dotNet5779\PLWPF\obj\Debug\LinqByDrivingTEACHER.g.cs
+C:\Project01_6081_3981_dotNet5779\PLWPF\obj\Debug\LinqByNumberOfTests.g.cs
+C:\Project01_6081_3981_dotNet5779\PLWPF\obj\Debug\LinqTesters.g.cs
+C:\Project01_6081_3981_dotNet5779\PLWPF\obj\Debug\LinqByDrivingSchool.baml
+C:\Project01_6081_3981_dotNet5779\PLWPF\obj\Debug\LinqByDrivingTEACHER.baml
+C:\Project01_6081_3981_dotNet5779\PLWPF\obj\Debug\LinqByNumberOfTests.baml
+C:\Project01_6081_3981_dotNet5779\PLWPF\obj\Debug\LinqTesters.baml

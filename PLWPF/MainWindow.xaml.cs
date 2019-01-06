@@ -46,6 +46,9 @@ namespace PLWPF
             testerWPF.ShowDialog();
         }
 
-      
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            new LinqWPF().ShowDialog();
+        }
     }
 }

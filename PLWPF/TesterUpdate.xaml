@@ -13,7 +13,7 @@
             <RowDefinition Height="337*"/>
         </Grid.RowDefinitions>
         <Image HorizontalAlignment="Left" Height="421" VerticalAlignment="Top" Width="793" Margin="111,0,-110.667,-0.334" Source="image/Ferrari-488_Spider_2016_1600x1200_wallpaper_0a.jpg" Grid.RowSpan="2" Opacity="0.5"/>
-        <TextBox x:Name="EnterNameu" Text="{Binding TesterFirstName, Mode=TwoWay}" Background="#FFFEFDFD" HorizontalAlignment="Left" Margin="111,35,0,26.333" TextWrapping="Wrap" Width="206" TextChanged="EnterNameu_TextChanged" />
+        <TextBox x:Name="EnterNameu" Text="{Binding TesterFirstName, Mode=TwoWay}" Background="#FFFEFDFD" HorizontalAlignment="Left" Margin="111,35,0,26.333" TextWrapping="Wrap" Width="206" TextChanged="EnterNameu_TextChanged" LostKeyboardFocus="EnterNameu_LostKeyboardFocus"/>
         <Label Content="Last Name" FontFamily="Cooper Black" HorizontalAlignment="Left" Height="32" Margin="111,51,0,0" VerticalAlignment="Top" Width="137"/>
         <TextBox x:Name="lastnameu" Background="#FFFEFDFD" Text="{Binding TesterLastName, Mode=TwoWay}" HorizontalAlignment="Left" Height="20" Margin="111,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" Grid.RowSpan="2" />
         <Label Content="Name" HorizontalAlignment="Left" Height="25" Margin="111,10,0,0" VerticalAlignment="Top" Width="93" FontFamily="Cooper Black"/>
@@ -44,7 +44,6 @@
         <CheckBox Content="" IsChecked="{Binding TesterWorkHours[2][4],Mode=TwoWay}" HorizontalAlignment="Left" Margin="546,62.667,0,0" Grid.Row="1" VerticalAlignment="Top"/>
         <CheckBox Content="" IsChecked="{Binding TesterWorkHours[3][4],Mode=TwoWay}" HorizontalAlignment="Left" Margin="546,82.667,0,0" Grid.Row="1" VerticalAlignment="Top"/>
         <CheckBox Content="" IsChecked="{Binding TesterWorkHours[4][4],Mode=TwoWay}" HorizontalAlignment="Left" Margin="546,102.667,0,0" Grid.Row="1" VerticalAlignment="Top"/>
-        <CheckBox Content="" IsChecked="{Binding TesterWorkHours[0][0],Mode=TwoWay}"  HorizontalAlignment="Left" Margin="402,22.667,0,0" Grid.Row="1" VerticalAlignment="Top"/>
         <CheckBox Content="" IsChecked="{Binding TesterWorkHours[1][0],Mode=TwoWay}" HorizontalAlignment="Left" Margin="402,42.667,0,0" Grid.Row="1" VerticalAlignment="Top"/>
         <CheckBox Content="" IsChecked="{Binding TesterWorkHours[2][0],Mode=TwoWay}" HorizontalAlignment="Left" Margin="402,62.667,0,0" Grid.Row="1" VerticalAlignment="Top"/>
         <CheckBox Content="" IsChecked="{Binding TesterWorkHours[3][0],Mode=TwoWay}" HorizontalAlignment="Left" Margin="402,82.667,0,0" Grid.Row="1" VerticalAlignment="Top"/>
@@ -73,5 +72,6 @@
                 <SolidColorBrush Color="#FFDDDDDD" Opacity="0.2"/>
             </Button.Background>
         </Button>
+        <CheckBox Content="" HorizontalAlignment="Left" Margin="402,22.667,0,0" IsChecked="{Binding TesterWorkHours[0][0],Mode=TwoWay ,UpdateSourceTrigger=PropertyChanged}" Grid.Row="1" VerticalAlignment="Top"/>
     </Grid>
 </Window>

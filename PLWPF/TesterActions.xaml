@@ -21,7 +21,6 @@
                 <SolidColorBrush Color="#FFDDDDDD" Opacity="0.1"/>
             </Button.Background>
         </Button>
-        
         <Button x:Name="pb_testerDELETE" Content="DELETE" HorizontalAlignment="Left" Margin="10,148,0,0" VerticalAlignment="Top" Width="172" Height="49" FontSize="16" FontFamily="Segoe UI Black" Click="pb_testerDELETE_Click">
             <Button.Background>
                 <SolidColorBrush Color="#FFDDDDDD" Opacity="0.1"/>

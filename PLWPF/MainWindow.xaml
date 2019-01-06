@@ -14,8 +14,21 @@
         </Grid.RowDefinitions>
         <Image HorizontalAlignment="Center" Name="myimage" Margin="-242.655,-117.277,-241.684,-125.839" VerticalAlignment="Top" Height="663.783" Width="1277.672" Source="image/תמונת רכב.jpg" UseLayoutRounding="False" Opacity="0.75" Grid.RowSpan="3"/>
 
-        <Button x:Name="Pb_tester" Opacity="0.75"  Content="Tester" HorizontalAlignment="Left" Margin="241,39,0,0" VerticalAlignment="Top" Width="333" Height="60" Click="Pb_tester_Click" FontSize="36" BorderBrush="#FF707070" Background="#FFBFBDBD"/>
+        <Button x:Name="Pb_tester"  Content="TESTER" HorizontalAlignment="Left" Margin="241,39,0,0" VerticalAlignment="Top" Width="333" Height="60" Click="Pb_tester_Click" FontSize="36" BorderBrush="#FF707070">
+            <Button.Background>
+                <SolidColorBrush Color="#FFBFBDBD" Opacity="0.495"/>
+            </Button.Background>
+        </Button>
         <Image HorizontalAlignment="Left" Height="60" Margin="10,120,0,0" VerticalAlignment="Top" Width="333"  />
-        <Button x:Name="Pb_trainee" Content="Trainee" HorizontalAlignment="Left" Margin="241,155,0,0" VerticalAlignment="Top" Width="333" Height="60" Opacity="0.75"  Click="pb_trainee_Click" FontSize="36"/>
+        <Button x:Name="Pb_trainee" Content="TRAINEE" HorizontalAlignment="Left" Margin="241,155,0,0" VerticalAlignment="Top" Width="333" Height="60"  Click="pb_trainee_Click" FontSize="36">
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0.495"/>
+            </Button.Background>
+        </Button>
+        <Button Content="LINQ" HorizontalAlignment="Left" Margin="241,271,0,0" VerticalAlignment="Top" Width="333" Height="60" Grid.RowSpan="2" FontSize="36" Click="Button_Click" >
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0.495"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>

@@ -18,7 +18,7 @@
             <RowDefinition Height="auto"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Image HorizontalAlignment="Center" x:Name="ImageTester" Margin="0.097,-10,29.302,-0.001" VerticalAlignment="Top" Height="420.667" Width="651.268" Source="image/תמונה testet.jpg" UseLayoutRounding="False" Opacity="0.75" Grid.RowSpan="3"/>
+        <Image HorizontalAlignment="Center" x:Name="ImageTester" Margin="0.097,-10,29.302,0" VerticalAlignment="Top" Height="420.667" Width="651.268" Source="image/תמונה testet.jpg" UseLayoutRounding="False" Opacity="0.75" Grid.RowSpan="3"/>
         <Label x:Name="userLogin" Content="User login" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,10,0,0" Height="54" Width="436" FontSize="24" FontFamily="Segoe UI Black" Foreground="#FF4663B0" Grid.ColumnSpan="2"/>
         <TextBox x:Name="tb_idLogin" HorizontalAlignment="Left" Height="36" Margin="226,55,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="269" FontSize="16" FontFamily="auto">
             

@@ -52,12 +52,10 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -212,23 +210,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\This_User\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\miniProject\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Project01_6081_3981_dotNet5779\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\miniProject\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\miniProject\\DAL\\obj\\",
+      "projectPath": "C:\\Project01_6081_3981_dotNet5779\\DAL\\DAL.csproj",
+      "packagesPath": "C:\\Users\\This_User\\.nuget\\packages\\",
+      "outputPath": "C:\\Project01_6081_3981_dotNet5779\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\This_User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -241,11 +239,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\miniProject\\BE\\BE.csproj": {
-              "projectPath": "C:\\miniProject\\BE\\BE.csproj"
+            "C:\\Project01_6081_3981_dotNet5779\\BE\\BE.csproj": {
+              "projectPath": "C:\\Project01_6081_3981_dotNet5779\\BE\\BE.csproj"
             },
-            "C:\\miniProject\\DAS\\DAS.csproj": {
-              "projectPath": "C:\\miniProject\\DAS\\DAS.csproj"
+            "C:\\Project01_6081_3981_dotNet5779\\DAS\\DAS.csproj": {
+              "projectPath": "C:\\Project01_6081_3981_dotNet5779\\DAS\\DAS.csproj"
             }
           }
         }

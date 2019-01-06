@@ -172,14 +172,14 @@ namespace BL
             {
                 throw new Exception("There is no free examiner at the requested time and enter another time");
             }
-            IEnumerable<Tester> tester = testers.Where(L => L.TesterGender == GetTrainee(test.TestTraineeId).TraineePreferredGenderOfTester);
+          //  IEnumerable<Tester> tester = testers.Where(L => L.TesterGender == GetTrainee(test.TestTraineeId).TraineePreferredGenderOfTester);
 
-            if (!(tester.Count() == 0))///אם יש  בוחן מהמין המועדף תבחר אותו ותעדכן תנתונים
-            {
+            //if (!(tester.Count() == 0))///אם יש  בוחן מהמין המועדף תבחר אותו ותעדכן תנתונים
+            //{
 
-                test.TestTesterId = testers.First().TesterId;
+            //    test.TestTesterId = testers.First().TesterId;
 
-            }
+            //}
             else
             {
                 test.TestTesterId = testers.First().TesterId;
