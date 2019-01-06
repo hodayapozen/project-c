@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Project01_6081_3981_dotNet5779\PLWPF\obj\Debug\
+C:\miniProject\PLWPF\obj\Debug\
 PLWPF
 none
 false
 DEBUG;TRACE
-C:\Project01_6081_3981_dotNet5779\PLWPF\App.xaml
+C:\miniProject\PLWPF\App.xaml
 91121223403
 
-131819499954
-1211733557930
+17-714297248
+121-2090058574
 AddTester.xaml;MainWindow.xaml;TesterActions.xaml;TesterAddSuccess.xaml;TesterDeleteSuccess.xaml;TesterUpdate.xaml;TesterUpdateSuccess.xaml;TesterWorkHours.xaml;TesterWPF.xaml;
 
-False
+True
 

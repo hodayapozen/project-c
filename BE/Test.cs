@@ -6,7 +6,7 @@ using System.Text;
 namespace BE
 {
 
-    public class Test
+    public class Test : IComparable
     {
 
         public int TestId { get; set; }
@@ -42,6 +42,11 @@ namespace BE
         {
 
 
+        }
+
+        public int CompareTo(object obj)
+        {
+            return TestDataTime.CompareTo(obj);
         }
     }
 
