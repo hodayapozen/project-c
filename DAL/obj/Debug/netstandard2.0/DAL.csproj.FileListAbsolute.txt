@@ -1,0 +1,14 @@
+C:\Project01_6081_3981_dotNet5779\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+C:\Project01_6081_3981_dotNet5779\DAL\bin\Debug\netstandard2.0\DAL.dll
+C:\Project01_6081_3981_dotNet5779\DAL\bin\Debug\netstandard2.0\DAL.pdb
+C:\Project01_6081_3981_dotNet5779\DAL\bin\Debug\netstandard2.0\BE.dll
+C:\Project01_6081_3981_dotNet5779\DAL\bin\Debug\netstandard2.0\DAS.dll
+C:\Project01_6081_3981_dotNet5779\DAL\bin\Debug\netstandard2.0\BE.pdb
+C:\Project01_6081_3981_dotNet5779\DAL\bin\Debug\netstandard2.0\DAS.pdb
+C:\Project01_6081_3981_dotNet5779\DAL\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache
+C:\Project01_6081_3981_dotNet5779\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+C:\Project01_6081_3981_dotNet5779\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+C:\Project01_6081_3981_dotNet5779\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+C:\Project01_6081_3981_dotNet5779\DAL\obj\Debug\netstandard2.0\DAL.csproj.CopyComplete
+C:\Project01_6081_3981_dotNet5779\DAL\obj\Debug\netstandard2.0\DAL.dll
+C:\Project01_6081_3981_dotNet5779\DAL\obj\Debug\netstandard2.0\DAL.pdb

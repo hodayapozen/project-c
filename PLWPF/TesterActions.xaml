@@ -1,0 +1,32 @@
+﻿<Window x:Class="PLWPF.TesterActions"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="TesterActions" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="192*"/>
+            <ColumnDefinition Width="60*"/>
+            <ColumnDefinition Width="27*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="513*"/>
+        </Grid.ColumnDefinitions>
+        <Image HorizontalAlignment="Left" Height="600" VerticalAlignment="Top" Width="1000" Source="image/תפריט טסטר.jpg" RenderTransformOrigin="0.674,0.512" Margin="0,-87,-206.667,-92.333" Opacity="3" Grid.ColumnSpan="5"/>
+        <Label x:Name="Lb_hello" Grid.Column="4" HorizontalAlignment="Left" Margin="8.882,-57,0,0" VerticalAlignment="Top" FontSize="48" Height="70" Width="250" FontFamily="Segoe UI Black"/>
+        <Button x:Name="pb_Testupdat" Content="UPDATE" HorizontalAlignment="Left" Margin="10,58,0,0" VerticalAlignment="Top" Width="172" Height="49" FontSize="16" FontFamily="Segoe UI Black" Click="pb_Testupdat_Click">
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0.1"/>
+            </Button.Background>
+        </Button>
+        
+        <Button x:Name="pb_testerDELETE" Content="DELETE" HorizontalAlignment="Left" Margin="10,148,0,0" VerticalAlignment="Top" Width="172" Height="49" FontSize="16" FontFamily="Segoe UI Black" Click="pb_testerDELETE_Click">
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0.1"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

@@ -1,0 +1,9 @@
+C:\Project01_6081_3981_dotNet5779\BE\bin\Debug\netstandard2.0\BE.deps.json
+C:\Project01_6081_3981_dotNet5779\BE\bin\Debug\netstandard2.0\BE.dll
+C:\Project01_6081_3981_dotNet5779\BE\bin\Debug\netstandard2.0\BE.pdb
+C:\Project01_6081_3981_dotNet5779\BE\obj\Debug\netstandard2.0\BE.csproj.CoreCompileInputs.cache
+C:\Project01_6081_3981_dotNet5779\BE\obj\Debug\netstandard2.0\BE.AssemblyInfoInputs.cache
+C:\Project01_6081_3981_dotNet5779\BE\obj\Debug\netstandard2.0\BE.AssemblyInfo.cs
+C:\Project01_6081_3981_dotNet5779\BE\obj\Debug\netstandard2.0\BE.dll
+C:\Project01_6081_3981_dotNet5779\BE\obj\Debug\netstandard2.0\BE.pdb
+C:\Project01_6081_3981_dotNet5779\BE\obj\Debug\netstandard2.0\BE.csprojAssemblyReference.cache
